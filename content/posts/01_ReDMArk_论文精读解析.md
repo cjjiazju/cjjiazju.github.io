@@ -1,5 +1,5 @@
 ---
-title: "ReDMArk: Bypassing RDMA Security Mechanisms"
+title: "论文精读解析：ReDMArk: Bypassing RDMA Security Mechanisms"
 date: 2027-03-17
 description: "论文精读解析：ReDMArk: Bypassing RDMA Security Mechanisms"
 tags: ["rdma", "paper", "security", "ReDMArk"]
