@@ -1,0 +1,58 @@
+baseURL: "https://cjjiazju.github.io/"
+title: "cjjiazju"
+theme: PaperMod
+languageCode: en-us
+paginate: 10
+
+enableRobotsTXT: true
+buildDrafts: false
+canonicalURL: true
+enableEmoji: true
+
+params:
+  author: "cjjiazju"
+  description: "Writing about kernel internals, RDMA, eBPF, and systems security."
+
+  homeInfoParams:
+    Title: "cjjiazju"
+    Content: |
+      Security researcher. Writing about RDMA security, eBPF, AI infra security, and kernel/DPDK internals.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/cjjiazju"
+    - name: rss
+      url: "/index.xml"
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  TocOpen: false
+
+  assets:
+    disableHLJS: true
+
+markup:
+  highlight:
+    style: monokai
+    lineNos: true
+    lineNumbersInTable: false
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+    - name: Archive
+      url: /archives/
+      weight: 5
+    - name: Tags
+      url: /tags/
+      weight: 10
+    - name: About
+      url: /about/
+      weight: 20
